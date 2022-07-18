@@ -1,6 +1,4 @@
-* {
-  border: 1px solid red;
-}
+
 
 body  {
     font-family: Helvetica;
@@ -15,13 +13,14 @@ body  {
   display: flex;
   height: auto;
   flex-direction: row;
-  padding: 10px;
+  padding: 20px;
   color:#f9faf8;
   background-color: #1f2937;
 }
 
 .title  {
     font-size: 24pt;
+    align-self: center;
 
 }
 .headeritems {
@@ -38,7 +37,7 @@ h3 {
   width: fit-content;
   flex-direction: row;
   display: flex;
-  margin: 4px;
+  margin: px;
   align-items: center;
 }
 .hero {
@@ -53,19 +52,22 @@ h3 {
 .information {
   display: flex;
   flex-direction: row;
-  height: 430px;
+  height: 450px;
   font-size: 36px;
   font-weight: bolder;
-  padding:50px;
+  padding:10px;
+  align-items: center;
+  justify-content: center;
 }
 
 .infoblock {
-  height: 430px;
-  width: 300px;
+  height:400px;
+  width: 280px;
   flex-direction: column;
   align-items: center;
-  gap:50px;
+  
 }
+
 .pic {
   border: 3px solid blue;
   align-items: baseline;
@@ -93,6 +95,7 @@ div {
   justify-content: center;
   align-items: flex-start;
   margin: auto;
+  height:290px;
 }
 
 .right {
@@ -101,27 +104,31 @@ div {
   margin: auto;
 }
 
-.quote {
+.quote1 {
   display: flex;
   flex-direction: column;
   font-size: 36px;
   font-style: italic;
   color: #1f2937;
+  padding:40px;
+  background-color: #e5e7eb;
 }
 
 .name {
   justify-content: flex-end;
-  margin-right: 75px;
+  margin-right: 210px;
+  padding:10px;
 }
 
 .card  {
     display:flex;
-    background-color: lightblue;
-    height: 140px;
-    width: 80%;
+    background-color: #3882f6;
+    height: 160px;
+    width: 70%;
     margin:auto;
     border-radius: 10px;
     flex-direction: row;
+    
 }
 
 .signup  {
@@ -143,13 +150,17 @@ div {
     width: 140px;
     align-self: center;
     margin: auto;
-    
+    outline-color: #e5e7eb;
     
 }
 
 .footer  {
     align-items: center;
     justify-content:  center;
+    color: #e5e7eb;
+    font-size: 18pt;
+    font-weight: bolder;
+    height:150px;
 }
 h2  {
     font-size: 48px;
@@ -161,6 +172,7 @@ h2  {
     font-size: 18px;
     color:#e5e7eb;
     margin-top: 0px;
+    margin-bottom:15px;
 }
 
 button {
@@ -171,10 +183,62 @@ button {
     border-radius: 10px;
     font-size: 24px;
     font-weight: bolder;
-    margin-top: 4px;
+    
 }
 
 .infoinfo  {
     
     text-align: center;
+}
+
+quote  {
+    display:flex;
+    align-self: center;
+}
+p {
+    margin-bottom: 4px;
+}
+
+.left2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: auto;
+    height:80px;
+  }
+  
+  .two {
+    width: fit-content;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 24px;
+  }
+
+.whatweoffer  {
+    margin:auto;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+em  {
+    font-size: 12pt;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+
+.sub {
+    display:flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
 }

@@ -1,0 +1,77 @@
+*  {
+    border:1px solid red
+}
+
+.container  {
+    
+    flex-direction: column;
+    width: 100%;;
+}
+
+.header  {
+    display: flex;
+    height: auto;
+   flex-direction: row;
+    padding: 10px;
+}
+
+.headeritems {
+
+ width: 100%;
+}
+
+h1  {
+    width: fit-content;
+    margin-right: auto;
+    
+}
+h3  {
+    width: fit-content;
+    flex-direction: row;
+    display: flex; 
+    margin: 4px;
+    align-items: center;
+}
+.hero  {
+    flex:auto;
+    height: 300px;
+    flex-direction: row;
+}
+
+.information  {
+    flex:auto;
+    height: 200px;
+}
+
+.quote  {
+    flex:auto;
+    height: 200px;
+}
+
+.signup  {
+    flex:auto;
+    height: 100px;
+}
+
+.footer  {
+    flex:auto;
+    height: 100px;
+}
+
+div  {
+    display: flex;
+    ;
+}
+
+.left  {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+
